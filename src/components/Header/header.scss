@@ -23,10 +23,13 @@
     align-items: center;
     justify-content: flex-start;
     div {
-      margin-right: 1rem;
-      font-size: 1.4rem;
+      margin-right: 2rem;
+      font-size: 1.6rem;
       cursor: pointer;
       color: rgba($color: #fff, $alpha: 0.5);
+      &:hover {
+        color: #fff;
+      }
     }
   }
   .entry-section {
