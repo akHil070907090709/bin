@@ -1,4 +1,5 @@
 import "./App.css";
+import CardsSection from "./components/cards/CardsSection";
 import CarouselSection from "./components/carousel/CarouselSection";
 import Header from "./components/Header/Header.jsx";
 import TaglineSection from "./components/Tagline/TaglineSection";
@@ -11,6 +12,7 @@ function App() {
       {/* <ReduxContent /> */}
       <CarouselSection />
       <TaglineSection />
+      <CardsSection />
     </div>
   );
 }

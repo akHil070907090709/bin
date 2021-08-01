@@ -1,0 +1,14 @@
+.cards-section {
+  h2 {
+    margin: 2rem;
+    margin-top: 3rem;
+    font-weight: 700;
+  }
+  .card {
+    width: auto !important;
+    margin-bottom: 2rem;
+    img {
+      max-height: 300px !important;
+    }
+  }
+}
